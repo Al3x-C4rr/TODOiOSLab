@@ -1,0 +1,34 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+9B4CED2606F7CB557B985091 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LabSettings.swift"; sourceTree = "<group>"; };
+25802AA55DFA317E48A2096E = {isa = PBXBuildFile; fileRef = 9B4CED2606F7CB557B985091; };
+21912309C715907D12659C74 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence/PersistentTodoScreen.swift"; sourceTree = "<group>"; };
+7D40D74D25BC4FCC3A6D1AB7 = {isa = PBXBuildFile; fileRef = 21912309C715907D12659C74; };
+296D2D306301B1763333F14D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence/StoredTodo.swift"; sourceTree = "<group>"; };
+7AC786DEDCE480FEB2DD0E93 = {isa = PBXBuildFile; fileRef = 296D2D306301B1763333F14D; };
+FAA32E8BF5A201B39C6FE3F2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TODOiOSLabApp.swift"; sourceTree = "<group>"; };
+0A4C188A1B06337D34EFF864 = {isa = PBXBuildFile; fileRef = FAA32E8BF5A201B39C6FE3F2; };
+E131AC7F2EB3CEEDC3D56976 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo.swift"; sourceTree = "<group>"; };
+F6C5D1B5F9C40304136E0A3E = {isa = PBXBuildFile; fileRef = E131AC7F2EB3CEEDC3D56976; };
+EA75DAFFF1F64D6517116DFA = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoComponents.swift"; sourceTree = "<group>"; };
+FAB732AF27138B4B427C19CC = {isa = PBXBuildFile; fileRef = EA75DAFFF1F64D6517116DFA; };
+EA4B4AC080A19A1B5206474B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoScreen.swift"; sourceTree = "<group>"; };
+A221611FEACFF1217D33171C = {isa = PBXBuildFile; fileRef = EA4B4AC080A19A1B5206474B; };
+38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = TODOiOSLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+3685E330EC5277A9DD5661C6 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+04200CFFD12D083534B07BB1 = { isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6; };
+325F10A6957A34D66CB8C0E4 = { isa = PBXGroup; children = (482182478A3ECD4745BEA917, FBDC4F23F93125BBEEAE800C); sourceTree = "<group>"; };
+482182478A3ECD4745BEA917 = { isa = PBXGroup; children = (9B4CED2606F7CB557B985091, 21912309C715907D12659C74, 296D2D306301B1763333F14D, FAA32E8BF5A201B39C6FE3F2, E131AC7F2EB3CEEDC3D56976, EA75DAFFF1F64D6517116DFA, EA4B4AC080A19A1B5206474B, 3685E330EC5277A9DD5661C6); path = TODOiOSLab; sourceTree = "<group>"; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9); name = Products; sourceTree = "<group>"; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (25802AA55DFA317E48A2096E, 7D40D74D25BC4FCC3A6D1AB7, 7AC786DEDCE480FEB2DD0E93, 0A4C188A1B06337D34EFF864, F6C5D1B5F9C40304136E0A3E, FAB732AF27138B4B427C19CC, A221611FEACFF1217D33171C); runOnlyForDeploymentPostprocessing = 0; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (04200CFFD12D083534B07BB1); runOnlyForDeploymentPostprocessing = 0; };
+7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (BCE16DD0260827ECF338C787, 7561BFB015D8F536760CB671, 0189424A5A60FED329FA868E); buildRules = (); dependencies = (); name = TODOiOSLab; productName = TODOiOSLab; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2710; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = es; hasScannedForEncodings = 0; knownRegions = (es, en, Base); mainGroup = 325F10A6957A34D66CB8C0E4; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E); };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178, E6DE6C99132752C914FEF632); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; }; name = Debug; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; }; name = Release; };
+C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A, 639A7CA24D39909E713B47F7); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; PRODUCT_BUNDLE_IDENTIFIER = edu.lab.TODOiOSLab; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Mis tareas"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; TARGETED_DEVICE_FAMILY = 1; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; CODE_SIGN_STYLE = Automatic; MARKETING_VERSION = 1.0; CURRENT_PROJECT_VERSION = 1; ENABLE_PREVIEWS = YES; }; name = Debug; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; PRODUCT_BUNDLE_IDENTIFIER = edu.lab.TODOiOSLab; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Mis tareas"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; TARGETED_DEVICE_FAMILY = 1; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; CODE_SIGN_STYLE = Automatic; MARKETING_VERSION = 1.0; CURRENT_PROJECT_VERSION = 1; ENABLE_PREVIEWS = YES; }; name = Release; };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }

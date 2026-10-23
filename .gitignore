@@ -1,0 +1,11 @@
+# Xcode: solo archivos personales y resultados de compilación
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcresult
+*.log
+# Nunca guardar credenciales
+.env
+.env.*
