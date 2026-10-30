@@ -10,8 +10,7 @@ struct TODOMacLabApp: App {
             TodoScreen(isPresentingNewTodo: $isPresentingNewTodo)
                 .tint(LabSettings.accentColor)
         }
-        // MAC 1: prueba width: 820, height: 560; son puntos, no píxeles.
-        .defaultSize(width: 760, height: 520)
+        .defaultSize(width: 820, height: 560)
         .commands {
             // Sustituye el grupo de creación para no competir con Nueva ventana.
             CommandGroup(replacing: .newItem) {
